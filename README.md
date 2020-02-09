@@ -5,3 +5,8 @@
 [![VK Coin PHP](https://img.shields.io/badge/VK%20Coin%20PHP-1.2-purple.svg?style=flat-square)](https://github.com/slmatthew/vk-coin-php)
 [![PHP](https://img.shields.io/badge/php->=5.6-blue.svg?style=flat-square)](https://php.net/)
 [![Беседа](https://img.shields.io/badge/Беседа-VK-yellow.svg?style=flat-square)](https://vk.me/join/AJQ1dwNDYA/Cd7WMXvOhbzA8)
+
+## Формат ответа
+При вызове любого метода API возвращается массив с двумя полями, либо false.
+
+| Имя поля     | Тип    |  Описание                                                                          |
