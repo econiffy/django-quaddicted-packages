@@ -16,3 +16,8 @@
 | error        | string | **Возвращается только если `status` == `false`.** Строка, описывающая ошибку CURL. |
 
 Если что-то пошло не так, вернётся значение `false`. Проверить можно так:
+```php
+$result = $vkcoin->getTransactions();
+if($result === false) {
+	// что-то пошло не так
+} elseif($result['status']) {
