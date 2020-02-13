@@ -21,3 +21,8 @@ $result = $vkcoin->getTransactions();
 if($result === false) {
 	// что-то пошло не так
 } elseif($result['status']) {
+	// запрос выполнен успешно
+} else {
+	// обработка ошибки CURL
+}
+```
