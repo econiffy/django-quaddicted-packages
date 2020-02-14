@@ -30,3 +30,5 @@ if($result === false) {
 **Важно!** Ответ API можно будет получить через `$result['response']`, если ответ API примерно таков:
 ```json
 {
+  "status": true,
+  "response": {
