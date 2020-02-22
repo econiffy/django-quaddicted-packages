@@ -41,3 +41,9 @@ if($result === false) {
 
 > Раньше нужно было писать `$result['response']['response']`. Чтобы понять, что я написал, лучше загляните в код, функция `request()`.
 
+
+## Инициализация
+**Важно:** если версия PHP, которую Вы используете, меньше `7.0.0`, нужно использовать [lib-5.6.php](https://github.com/slmatthew/vk-coin-php/blob/master/lib-5.6.php). В ином случае используйте [обычную версию](https://github.com/slmatthew/vk-coin-php/blob/master/lib.php).
+
+Пример:
+```php
