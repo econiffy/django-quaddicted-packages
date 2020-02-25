@@ -58,3 +58,9 @@ $vkcoin = new VKCoinClient(305360617, 'cNwFTVP7Y33M5TxgZMhLQmdcNrb6qu72mNCTeRdX9
 | apikey       | string | **yes**           | Платёжный ключ                                       |
 
 ## Получение списка транзакций
+Пример:
+```php
+$vkcoin->getTransactions();
+$vkcoin->getTransactions(2);
+$vkcoin->getTransactions(1, 200);
+```
