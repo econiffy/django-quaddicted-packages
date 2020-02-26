@@ -64,3 +64,7 @@ $vkcoin->getTransactions();
 $vkcoin->getTransactions(2);
 $vkcoin->getTransactions(1, 200);
 ```
+
+| Параметр     | Тип    | Обязательный? | Описание                                                                                      |
+|--------------|--------|---------------|-----------------------------------------------------------------------------------------------|
+| tx_type      | int    | no            | Описано в [документации](https://vk.com/@hs-marchant-api?anchor=poluchenie-spiska-tranzaktsy) |
