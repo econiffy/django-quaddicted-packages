@@ -77,3 +77,5 @@ $vkcoin->getTransactions(1, 200);
 ```php
 $vkcoin->sendTransfer(305360617, 15000);
 ```
+
+| Параметр         | Тип    | Обязательный? | Описание                                                                             |
