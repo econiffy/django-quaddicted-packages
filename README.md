@@ -125,3 +125,4 @@ $vkcoin->changeName('Мой магазин');
 ### Добавить сервер
 Пример:
 ```php
+$vkcoin->addWebhook('http://my-super-host.com/callback/');
