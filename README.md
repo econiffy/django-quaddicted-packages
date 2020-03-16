@@ -135,3 +135,5 @@ $vkcoin->addWebhook('http://my-super-host.com/callback/');
 ### Удалить сервер
 Пример:
 ```php
+$vkcoin->deleteWebhook();
+```
