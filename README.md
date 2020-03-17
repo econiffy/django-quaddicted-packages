@@ -139,3 +139,7 @@ $vkcoin->deleteWebhook();
 ```
 
 ### Получить логи неудачных запросов
+Пример:
+```php
+$vkcoin->getWebhookLogs();
+```
