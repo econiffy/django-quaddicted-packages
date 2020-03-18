@@ -147,3 +147,6 @@ $vkcoin->getWebhookLogs();
 ### Проверить подлинность запроса
 Пример:
 ```php
+$data = json_decode(file_get_contents('php://input'), true);
+echo $vkcoin->isKeyValid($data) ? 'Запрос подлинный.' : 'мамкин хакер!';
+```
