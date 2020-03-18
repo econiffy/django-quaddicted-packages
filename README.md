@@ -143,3 +143,7 @@ $vkcoin->deleteWebhook();
 ```php
 $vkcoin->getWebhookLogs();
 ```
+
+### Проверить подлинность запроса
+Пример:
+```php
