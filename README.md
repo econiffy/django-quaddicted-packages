@@ -150,3 +150,7 @@ $vkcoin->getWebhookLogs();
 $data = json_decode(file_get_contents('php://input'), true);
 echo $vkcoin->isKeyValid($data) ? 'Запрос подлинный.' : 'мамкин хакер!';
 ```
+
+| Параметр | Тип             | Обязательный? | Описание                                                                                                                                       |
+|----------|-----------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| params   | array or object | **yes**       | Данные запроса, декодированные через `json_decode(file_get_contents('php://input'), true)` или `json_decode(file_get_contents('php://input'))` |
