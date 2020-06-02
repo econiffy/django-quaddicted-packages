@@ -9,4 +9,4 @@
 
 include './lib.php';
 
-defi
+define
