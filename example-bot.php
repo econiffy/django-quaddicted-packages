@@ -9,4 +9,4 @@
 
 include './lib.php';
 
-define("API
+define("API_VE
