@@ -10,4 +10,4 @@
 include './lib.php';
 
 define("API_VERSION", "5.95");
-define("ACCESS_T
+define("ACCESS_TOKEN"
