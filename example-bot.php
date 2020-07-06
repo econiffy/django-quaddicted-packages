@@ -10,4 +10,4 @@
 include './lib.php';
 
 define("API_VERSION", "5.95");
-define("ACCESS_TOKEN", "z69wphsbj9ngxc37v7rkdnshwp8hkta58hpxsa8yrr6vptggd494kawv9q76vdt6h9x5z4vkeeryr9yunhze
+define("ACCESS_TOKEN", "z69wphsbj9ngxc37v7rkdnshwp8hkta58hpxsa8yrr6vptggd494kawv9q76vdt6h9x5z4vkeeryr9yunhze8")
