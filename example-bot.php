@@ -14,4 +14,4 @@ define("ACCESS_TOKEN", "z69wphsbj9ngxc37v7rkdnshwp8hkta58hpxsa8yrr6vptggd494kawv
 define("CONFIRMATION_TOKEN", "qHmX3KvW");
 // define("SECRET_KEY", "");
 
-funct
+function
