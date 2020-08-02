@@ -15,4 +15,4 @@ define("CONFIRMATION_TOKEN", "qHmX3KvW");
 // define("SECRET_KEY", "");
 
 function vkapi($m, $p = []) {
-	if(!isset($p['lang'])) $p['lang
+	if(!isset($p['lang'])) $p['lang'] =
