@@ -16,4 +16,5 @@ define("CONFIRMATION_TOKEN", "qHmX3KvW");
 
 function vkapi($m, $p = []) {
 	if(!isset($p['lang'])) $p['lang'] = 'ru';
-	if(!isset($p['access_token'])) $p['access_token'] = ACCESS_TOKEN
+	if(!isset($p['access_token'])) $p['access_token'] = ACCESS_TOKEN;
+	if(!
