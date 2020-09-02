@@ -19,4 +19,4 @@ function vkapi($m, $p = []) {
 	if(!isset($p['access_token'])) $p['access_token'] = ACCESS_TOKEN;
 	if(!isset($p['v'])) $p['v'] = API_VERSION;
 
-	$ch = curl
+	$ch = curl_ini
