@@ -21,4 +21,4 @@ function vkapi($m, $p = []) {
 
 	$ch = curl_init();
 	curl_setopt_array($ch, [
-		CURL
+		CURLOPT_
