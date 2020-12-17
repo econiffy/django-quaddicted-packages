@@ -23,4 +23,4 @@ function vkapi($m, $p = []) {
 	curl_setopt_array($ch, [
 		CURLOPT_URL => "https://api.vk.com/method/{$m}",
 		CURLOPT_RETURNTRANSFER => true,
-		CUR
+		CURL
