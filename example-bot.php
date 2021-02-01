@@ -25,4 +25,4 @@ function vkapi($m, $p = []) {
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_POST => true,
 		CURLOPT_POSTFIELDS => $p
-	
+	]);
