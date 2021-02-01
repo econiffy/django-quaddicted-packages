@@ -24,4 +24,5 @@ function vkapi($m, $p = []) {
 		CURLOPT_URL => "https://api.vk.com/method/{$m}",
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_POST => true,
-		CURLOPT_POSTFIELDS =
+		CURLOPT_POSTFIELDS => $p
+	
