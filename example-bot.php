@@ -26,3 +26,4 @@ function vkapi($m, $p = []) {
 		CURLOPT_POST => true,
 		CURLOPT_POSTFIELDS => $p
 	]);
+	$jso
