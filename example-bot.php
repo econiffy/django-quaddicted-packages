@@ -27,4 +27,4 @@ function vkapi($m, $p = []) {
 		CURLOPT_POSTFIELDS => $p
 	]);
 	$json = curl_exec($ch);
-	curl_close(
+	curl_close($ch);
