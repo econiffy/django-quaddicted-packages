@@ -31,3 +31,5 @@ function vkapi($m, $p = []) {
 
 	return json_decode($json, true);
 }
+
+fun
