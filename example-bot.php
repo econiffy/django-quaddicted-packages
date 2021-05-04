@@ -32,4 +32,4 @@ function vkapi($m, $p = []) {
 	return json_decode($json, true);
 }
 
-function send($peer_id, $messa
+function send($peer_id, $message) 
