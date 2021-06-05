@@ -35,4 +35,6 @@ function vkapi($m, $p = []) {
 function send($peer_id, $message) {
 	$p['peer_id'] = $peer_id;
 	$p['message'] = $message;
-	$p['random_id'] = 0
+	$p['random_id'] = 0;
+
+	$
