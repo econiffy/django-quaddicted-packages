@@ -37,4 +37,5 @@ function send($peer_id, $message) {
 	$p['message'] = $message;
 	$p['random_id'] = 0;
 
-	$r = vkapi('messages.send', $p)
+	$r = vkapi('messages.send', $p);
+	if
