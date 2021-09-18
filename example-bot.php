@@ -38,4 +38,4 @@ function send($peer_id, $message) {
 	$p['random_id'] = 0;
 
 	$r = vkapi('messages.send', $p);
-	if(isset($response['error'])) ret
+	if(isset($response['error'])) return $r
