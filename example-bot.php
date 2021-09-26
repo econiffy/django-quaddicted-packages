@@ -40,4 +40,4 @@ function send($peer_id, $message) {
 	$r = vkapi('messages.send', $p);
 	if(isset($response['error'])) return $response['error'];
 
-	re
+	return
