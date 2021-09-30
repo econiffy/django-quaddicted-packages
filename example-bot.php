@@ -41,3 +41,5 @@ function send($peer_id, $message) {
 	if(isset($response['error'])) return $response['error'];
 
 	return true;
+}
+
