@@ -43,4 +43,4 @@ function send($peer_id, $message) {
 	return true;
 }
 
-$data = jso
+$data = json_d
