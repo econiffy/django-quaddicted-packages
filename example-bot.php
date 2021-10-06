@@ -43,4 +43,4 @@ function send($peer_id, $message) {
 	return true;
 }
 
-$data = json_decode(fi
+$data = json_decode(file_
