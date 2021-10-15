@@ -43,4 +43,5 @@ function send($peer_id, $message) {
 	return true;
 }
 
-$data = json_decode(file_get_contents('php://input'), true)
+$data = json_decode(file_get_contents('php://input'), true);
+i
