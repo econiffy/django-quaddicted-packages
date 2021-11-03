@@ -48,4 +48,4 @@ if(!$data) { // if(!$data || $data['secret'] != SECRET_KEY)
 	return;
 }
 
-swit
+switch
