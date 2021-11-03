@@ -47,3 +47,5 @@ $data = json_decode(file_get_contents('php://input'), true);
 if(!$data) { // if(!$data || $data['secret'] != SECRET_KEY)
 	return;
 }
+
+swit
