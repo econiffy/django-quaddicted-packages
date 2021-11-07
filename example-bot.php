@@ -49,4 +49,4 @@ if(!$data) { // if(!$data || $data['secret'] != SECRET_KEY)
 }
 
 switch($data['type']) {
-	case 'confirm
+	case 'confirmat
