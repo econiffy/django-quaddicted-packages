@@ -50,4 +50,5 @@ if(!$data) { // if(!$data || $data['secret'] != SECRET_KEY)
 
 switch($data['type']) {
 	case 'confirmation':
-		echo CONFIRMATION_TOK
+		echo CONFIRMATION_TOKEN;
+	
