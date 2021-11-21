@@ -53,4 +53,4 @@ switch($data['type']) {
 		echo CONFIRMATION_TOKEN;
 		break;
 
-	case
+	case '
