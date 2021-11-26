@@ -54,3 +54,4 @@ switch($data['type']) {
 		break;
 
 	case 'message_new':
+		echo
