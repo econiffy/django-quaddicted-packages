@@ -56,4 +56,4 @@ switch($data['type']) {
 	case 'message_new':
 		echo 'ok';
 
-		$vkcoin = new VKCoi
+		$vkcoin = new VKCoinCl
