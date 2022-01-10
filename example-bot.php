@@ -59,3 +59,4 @@ switch($data['type']) {
 		$vkcoin = new VKCoinClient(305360617, 'cNwFTVP7Y33M5TxgZMhLQmdcNrb6qu72mNCTeRdX9PVEqbJPpe');
 
 		$peer_id = $data['object']['peer_id'];
+		$us
