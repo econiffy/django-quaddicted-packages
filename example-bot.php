@@ -61,4 +61,4 @@ switch($data['type']) {
 		$peer_id = $data['object']['peer_id'];
 		$user_id = $data['object']['from_id'];
 
-		$message = mb_strtolower($data['objec
+		$message = mb_strtolower($data['object']['te
