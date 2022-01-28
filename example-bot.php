@@ -62,4 +62,4 @@ switch($data['type']) {
 		$user_id = $data['object']['from_id'];
 
 		$message = mb_strtolower($data['object']['text'], 'UTF-8');
-		$
+		$mes
