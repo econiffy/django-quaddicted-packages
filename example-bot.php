@@ -62,4 +62,5 @@ switch($data['type']) {
 		$user_id = $data['object']['from_id'];
 
 		$message = mb_strtolower($data['object']['text'], 'UTF-8');
-		$message_exp = explode(' ', $message)
+		$message_exp = explode(' ', $message);
+
