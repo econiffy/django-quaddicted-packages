@@ -64,4 +64,5 @@ switch($data['type']) {
 		$message = mb_strtolower($data['object']['text'], 'UTF-8');
 		$message_exp = explode(' ', $message);
 
-		switch($message_exp[0])
+		switch($message_exp[0]) {
+		
