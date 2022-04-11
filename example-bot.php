@@ -65,4 +65,4 @@ switch($data['type']) {
 		$message_exp = explode(' ', $message);
 
 		switch($message_exp[0]) {
-			cas
+			case '
