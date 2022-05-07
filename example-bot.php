@@ -66,4 +66,4 @@ switch($data['type']) {
 
 		switch($message_exp[0]) {
 			case 'баланс':
-				$balance = str_replace('.', ',', $vkcoin->getBalance([$user_id])
+				$balance = str_replace('.', ',', $vkcoin->getBalance([$user_id])['
