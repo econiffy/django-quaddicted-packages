@@ -67,4 +67,4 @@ switch($data['type']) {
 		switch($message_exp[0]) {
 			case 'баланс':
 				$balance = str_replace('.', ',', $vkcoin->getBalance([$user_id])['response'][$user_id] / 1000);
-				send($peer_id, "Твой баланс: {$ba
+				send($peer_id, "Твой баланс: {$balan
