@@ -70,4 +70,4 @@ switch($data['type']) {
 				send($peer_id, "Твой баланс: {$balance}");
 				break;
 
-			defau
+			default:
