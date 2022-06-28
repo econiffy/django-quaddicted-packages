@@ -71,4 +71,4 @@ switch($data['type']) {
 				break;
 
 			default:
-				send($peer_i
+				send($peer_id, 
