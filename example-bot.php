@@ -71,4 +71,4 @@ switch($data['type']) {
 				break;
 
 			default:
-				s
+				send(
