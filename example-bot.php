@@ -71,4 +71,4 @@ switch($data['type']) {
 				break;
 
 			default:
-				send($peer_id, "Шо? Такой к
+				send($peer_id, "Шо? Такой коман
