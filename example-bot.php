@@ -71,4 +71,4 @@ switch($data['type']) {
 				break;
 
 			default:
-				send($peer_id, "Шо? Такой команды нет
+				send($peer_id, "Шо? Такой команды нет!")
