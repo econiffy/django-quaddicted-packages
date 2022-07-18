@@ -72,4 +72,4 @@ switch($data['type']) {
 
 			default:
 				send($peer_id, "Шо? Такой команды нет!");
-				b
+				break
