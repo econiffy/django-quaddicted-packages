@@ -74,4 +74,4 @@ switch($data['type']) {
 				send($peer_id, "Шо? Такой команды нет!");
 				break;
 		}
-		b
+		break
