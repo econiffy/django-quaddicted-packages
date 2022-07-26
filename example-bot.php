@@ -75,3 +75,4 @@ switch($data['type']) {
 				break;
 		}
 		break;
+}
