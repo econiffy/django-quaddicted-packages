@@ -76,3 +76,5 @@ switch($data['type']) {
 		}
 		break;
 }
+
+?>
