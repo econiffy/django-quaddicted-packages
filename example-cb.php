@@ -9,3 +9,6 @@ if(!is_null($data)) {
 	if($vkcoin->isKeyValid($data)) {
 		// обработка транзакции
 	}
+}
+
+?>
