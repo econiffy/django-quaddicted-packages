@@ -12,3 +12,7 @@ class VKCoinClient {
 
 	private $apikey = "";
 	private $merchant_id = 0;
+
+	/**
+	 * Конструктор
+	 * 
