@@ -9,3 +9,6 @@
 class VKCoinClient {
 
 	const API_HOST = 'https://coin-without-bugs.vkforms.ru/merchant';
+
+	private $apikey = "";
+	private $merchant_id = 0;
