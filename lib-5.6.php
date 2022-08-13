@@ -16,3 +16,7 @@ class VKCoinClient {
 	/**
 	 * Конструктор
 	 * 
+	 * @param int $merchant_id ID пользователя, для которого получен платёжный ключ
+	 * @param string $apikey Платёжный ключ
+	 */
+	public function __construct($merchant_id, $apikey) {
