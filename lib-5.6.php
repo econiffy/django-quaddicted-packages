@@ -20,3 +20,9 @@ class VKCoinClient {
 	 * @param string $apikey Платёжный ключ
 	 */
 	public function __construct($merchant_id, $apikey) {
+		$this->merchant_id = $merchant_id;
+		$this->apikey = $apikey;
+	}
+
+	/**
+	 * Функция request, используется для запросов к API
