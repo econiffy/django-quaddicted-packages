@@ -26,3 +26,7 @@ class VKCoinClient {
 
 	/**
 	 * Функция request, используется для запросов к API
+	 * 
+	 * @param string $method
+	 * @param string $body
+	 * @return array | bool
