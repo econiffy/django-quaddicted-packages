@@ -38,3 +38,5 @@ class VKCoinClient {
 				CURLOPT_URL => self::API_HOST.'/'.$method.'/',
 				CURLOPT_SSL_VERIFYPEER => false,
 				CURLOPT_RETURNTRANSFER => true,
+				CURLOPT_FOLLOWLOCATION => true,
+				CURLOPT_POST => true,
