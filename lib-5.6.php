@@ -35,3 +35,6 @@ class VKCoinClient {
 		if(extension_loaded('curl')) {
 			$ch = curl_init();
 			curl_setopt_array($ch, array(
+				CURLOPT_URL => self::API_HOST.'/'.$method.'/',
+				CURLOPT_SSL_VERIFYPEER => false,
+				CURLOPT_RETURNTRANSFER => true,
