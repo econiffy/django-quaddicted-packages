@@ -40,3 +40,6 @@ class VKCoinClient {
 				CURLOPT_RETURNTRANSFER => true,
 				CURLOPT_FOLLOWLOCATION => true,
 				CURLOPT_POST => true,
+				CURLOPT_POSTFIELDS => $body,
+				CURLOPT_HTTPHEADER => array('Content-Type: application/json')
+			));
