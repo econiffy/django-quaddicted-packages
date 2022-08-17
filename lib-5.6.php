@@ -30,3 +30,8 @@ class VKCoinClient {
 	 * @param string $method
 	 * @param string $body
 	 * @return array | bool
+	 */
+	private function request($method, $body) {
+		if(extension_loaded('curl')) {
+			$ch = curl_init();
+			curl_setopt_array($ch, array(
