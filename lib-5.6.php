@@ -43,3 +43,6 @@ class VKCoinClient {
 				CURLOPT_POSTFIELDS => $body,
 				CURLOPT_HTTPHEADER => array('Content-Type: application/json')
 			));
+
+			$response = curl_exec($ch);
+			$err = curl_error($ch);
