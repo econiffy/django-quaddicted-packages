@@ -56,3 +56,6 @@ class VKCoinClient {
 				return array('status' => true, 'response' => isset($response['response']) ? $response['response'] : $response);
 			}
 		}
+
+		return false;
+	}
