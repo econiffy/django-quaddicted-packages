@@ -69,3 +69,8 @@ class VKCoinClient {
 	 * @param bool $use_hex_link Генерировать ссылку с hex-параметрами или нет
 	 * @return string
 	 */
+	public function generatePayLink($sum, $payload = null, $fixed_sum = null, $use_hex_link = null) {
+		/** Поддержка старых версий PHP **/
+		if($payload === null) {
+			$payload = 0;
+		}
