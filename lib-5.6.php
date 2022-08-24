@@ -67,3 +67,5 @@ class VKCoinClient {
 	 * @param int $payload Полезная нагрузка. Если равно нулю, то будет сгенерировано рандомное число
 	 * @param bool $fixed_sum Фиксированная сумма, по умолчанию true
 	 * @param bool $use_hex_link Генерировать ссылку с hex-параметрами или нет
+	 * @return string
+	 */
