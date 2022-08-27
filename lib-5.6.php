@@ -74,3 +74,9 @@ class VKCoinClient {
 		if($payload === null) {
 			$payload = 0;
 		}
+		if($fixed_sum === null) {
+			$fixed_sum = true;
+		}
+		if($use_hex_link === null) {
+			$use_hex_link = true;
+		}
