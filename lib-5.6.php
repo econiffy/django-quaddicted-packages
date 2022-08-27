@@ -80,3 +80,9 @@ class VKCoinClient {
 		if($use_hex_link === null) {
 			$use_hex_link = true;
 		}
+
+		$payload = $payload == 0 ? rand(-2000000000, 2000000000) : $payload;
+
+		if($use_hex_link) {
+			$merchant_id = dechex($this->merchant_id);
+			$sum = dechex($sum);
