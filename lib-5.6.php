@@ -96,3 +96,9 @@ class VKCoinClient {
 		}
 
 		return $link;
+	}
+
+	/**
+	 * Получение списка транзакций
+	 * 
+	 * @param int $tx_type Документация: https://vk.com/@hs-marchant-api?anchor=poluchenie-spiska-tranzaktsy
