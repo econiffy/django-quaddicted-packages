@@ -106,3 +106,5 @@ class VKCoinClient {
 	 */
 	public function getTransactions($tx_type = null, $last_tx = null) {
 		/** Поддержка старых версий PHP **/
+		if($tx_type === null) {
+			$tx_type = 1;
