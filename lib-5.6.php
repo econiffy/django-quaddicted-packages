@@ -118,3 +118,5 @@ class VKCoinClient {
 		$params['merchantId'] = $this->merchant_id;
 		$params['key'] = $this->apikey;
 		$params['tx'] = array($tx_type);
+
+		if($last_tx != -1) {
