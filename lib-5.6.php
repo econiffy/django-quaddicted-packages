@@ -135,3 +135,7 @@ class VKCoinClient {
 	 */
 	public function sendTransfer($to_id, $amount, $mark_as_merchant = null) {
 		if($mark_as_merchant === null) {
+			$mark_as_merchant = true;
+		}
+
+		$params = array();
