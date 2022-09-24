@@ -142,3 +142,6 @@ class VKCoinClient {
 
 		$params['merchantId'] = $this->merchant_id;
 		$params['key'] = $this->apikey;
+		$params['toId'] = $to_id;
+		$params['amount'] = $amount;
+		$params['markAsMerchant'] = $mark_as_merchant;
