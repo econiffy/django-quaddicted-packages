@@ -145,3 +145,12 @@ class VKCoinClient {
 		$params['toId'] = $to_id;
 		$params['amount'] = $amount;
 		$params['markAsMerchant'] = $mark_as_merchant;
+
+		return $this->request('send', json_encode($params, JSON_UNESCAPED_UNICODE)); 
+	}
+
+	/**
+	 * Получение баланса
+	 * 
+	 * @param array $user_ids ID пользователей
+	 */
