@@ -160,3 +160,9 @@ class VKCoinClient {
 		}
 
 		$params = array();
+
+		$params['merchantId'] = $this->merchant_id;
+		$params['key'] = $this->apikey;
+		$params['userIds'] = $user_ids;
+
+		return $this->request('score', json_encode($params, JSON_UNESCAPED_UNICODE));
