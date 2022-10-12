@@ -166,3 +166,7 @@ class VKCoinClient {
 		$params['userIds'] = $user_ids;
 
 		return $this->request('score', json_encode($params, JSON_UNESCAPED_UNICODE));
+	}
+
+	/**
+	 * Изменение названия магазина
