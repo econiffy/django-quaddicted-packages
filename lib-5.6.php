@@ -174,3 +174,6 @@ class VKCoinClient {
 	 * @param string $name Название магазина
 	 */
 	public function changeName($name) {
+		$params = array();
+
+		$params['name'] = $name;
