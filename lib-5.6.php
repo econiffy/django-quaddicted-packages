@@ -170,3 +170,7 @@ class VKCoinClient {
 
 	/**
 	 * Изменение названия магазина
+	 * 
+	 * @param string $name Название магазина
+	 */
+	public function changeName($name) {
