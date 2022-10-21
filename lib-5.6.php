@@ -184,3 +184,7 @@ class VKCoinClient {
 	}
 
 	/**
+	 * Добавление Callback API сервера
+	 * 
+	 * @param string $url Адрес
+	 */
