@@ -192,3 +192,5 @@ class VKCoinClient {
 		$params = array();
 
 		$params['callback'] = $url;
+		$params['merchantId'] = $this->merchant_id;
+		$params['key'] = $this->apikey;
