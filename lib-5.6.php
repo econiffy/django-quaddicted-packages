@@ -197,3 +197,8 @@ class VKCoinClient {
 
 		return $this->request('set', json_encode($params, JSON_UNESCAPED_UNICODE));
 	}
+
+	/**
+	 * Удаление Callback API сервера
+	 */
+	public function deleteWebhook() {
