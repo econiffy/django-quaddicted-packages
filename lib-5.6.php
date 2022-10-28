@@ -216,3 +216,6 @@ class VKCoinClient {
 	 */
 	public function getWebhookLogs() {
 		$params = array();
+
+		$params['status'] = 1;
+		$params['merchantId'] = $this->merchant_id;
