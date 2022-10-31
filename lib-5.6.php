@@ -223,3 +223,8 @@ class VKCoinClient {
 
 		return $this->request('set', json_encode($params, JSON_UNESCAPED_UNICODE));
 	}
+
+	/**
+	 * Проверка подлинности ключа
+	 * 
+	 * @param array $params Данные запроса, декодированные через json_decode(file_get_contents('php://input'), true)
