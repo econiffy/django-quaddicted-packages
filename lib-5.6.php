@@ -243,3 +243,5 @@ class VKCoinClient {
 			if(isset($p['id'], $p['from_id'], $p['amount'], $p['payload'], $p['key'])) {
 				$key = md5(implode(';', [$p['id'], $p['from_id'], $p['amount'], $p['payload'], $this->apikey]));
 				return $key === $p['key'];
+			}
+		}
