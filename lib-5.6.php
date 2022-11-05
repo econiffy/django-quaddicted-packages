@@ -245,3 +245,7 @@ class VKCoinClient {
 				return $key === $p['key'];
 			}
 		}
+
+		return false;
+	}
+}
