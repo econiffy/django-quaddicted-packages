@@ -26,3 +26,8 @@ class VKCoinClient {
 
 		$this->merchant_id = $merchant_id;
 		$this->apikey = $apikey;
+	}
+
+	/**
+	 * Функция request, используется для запросов к API
+	 * 
