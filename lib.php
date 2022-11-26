@@ -50,3 +50,5 @@ class VKCoinClient {
 
 			$response = curl_exec($ch);
 			$err = curl_error($ch);
+
+			curl_close($ch);
