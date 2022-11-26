@@ -52,3 +52,6 @@ class VKCoinClient {
 			$err = curl_error($ch);
 
 			curl_close($ch);
+
+			if($err) {
+				return ['status' => false, 'error' => $err];
