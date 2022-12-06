@@ -59,3 +59,4 @@ class VKCoinClient {
 				$response = json_decode($response, true);
 				return ['status' => true, 'response' => isset($response['response']) ? $response['response'] : $response];
 			}
+		}
