@@ -63,3 +63,6 @@ class VKCoinClient {
 
 		return false;
 	}
+
+	/**
+	 * Получение ссылки на оплату
