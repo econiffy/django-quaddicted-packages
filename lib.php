@@ -70,3 +70,7 @@ class VKCoinClient {
 	 * @param int $sum Сумма перевода
 	 * @param int $payload Полезная нагрузка. Если равно нулю, то будет сгенерировано рандомное число
 	 * @param bool $fixed_sum Фиксированная сумма, по умолчанию true
+	 * @param bool $use_hex_link Генерировать ссылку с hex-параметрами или нет
+	 * @return string
+	 */
+	public function generatePayLink(int $sum, int $payload = 0, bool $fixed_sum = true, bool $use_hex_link = true) {
