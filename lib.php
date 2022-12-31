@@ -74,3 +74,9 @@ class VKCoinClient {
 	 * @return string
 	 */
 	public function generatePayLink(int $sum, int $payload = 0, bool $fixed_sum = true, bool $use_hex_link = true) {
+		$payload = $payload == 0 ? rand(-2000000000, 2000000000) : $payload;
+
+		if($use_hex_link) {
+			$merchant_id = dechex($this->merchant_id);
+			$sum = dechex($sum);
+			$payload = dechex($payload);
