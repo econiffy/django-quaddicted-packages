@@ -87,3 +87,8 @@ class VKCoinClient {
 
 			$link = "vk.com/coin#x{$merchant_id}_{$sum}_{$payload}".($fixed_sum ? "" : "_1");
 		}
+
+		return $link;
+	}
+
+	/**
