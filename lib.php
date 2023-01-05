@@ -80,3 +80,10 @@ class VKCoinClient {
 			$merchant_id = dechex($this->merchant_id);
 			$sum = dechex($sum);
 			$payload = dechex($payload);
+
+			$link = "vk.com/coin#m{$merchant_id}_{$sum}_{$payload}".($fixed_sum ? "" : "_1");
+		} else {
+			$merchant_id = $this->merchant_id;
+
+			$link = "vk.com/coin#x{$merchant_id}_{$sum}_{$payload}".($fixed_sum ? "" : "_1");
+		}
