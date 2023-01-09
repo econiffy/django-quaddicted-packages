@@ -98,3 +98,8 @@ class VKCoinClient {
 	 * @param int $last_tx Номер последней транзакции, всё описано в документации. По умолчанию не включён в запрос
 	 */
 	public function getTransactions(int $tx_type = 1, int $last_tx = -1) {
+		$params = [];
+
+		$params['merchantId'] = $this->merchant_id;
+		$params['key'] = $this->apikey;
+		$params['tx'] = [$tx_type];
