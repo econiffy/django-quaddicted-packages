@@ -94,3 +94,7 @@ class VKCoinClient {
 	/**
 	 * Получение списка транзакций
 	 * 
+	 * @param int $tx_type Документация: https://vk.com/@hs-marchant-api?anchor=poluchenie-spiska-tranzaktsy
+	 * @param int $last_tx Номер последней транзакции, всё описано в документации. По умолчанию не включён в запрос
+	 */
+	public function getTransactions(int $tx_type = 1, int $last_tx = -1) {
