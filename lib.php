@@ -109,3 +109,7 @@ class VKCoinClient {
 		}
 
 		return $this->request('tx', json_encode($params, JSON_UNESCAPED_UNICODE));
+	}
+
+	/**
+	 * Перевод
