@@ -131,3 +131,6 @@ class VKCoinClient {
 	}
 
 	/**
+	 * Получение баланса
+	 * 
+	 * @param array $user_ids ID пользователей
