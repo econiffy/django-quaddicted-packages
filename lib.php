@@ -134,3 +134,5 @@ class VKCoinClient {
 	 * Получение баланса
 	 * 
 	 * @param array $user_ids ID пользователей
+	 */
+	public function getBalance(array $user_ids = []) {
