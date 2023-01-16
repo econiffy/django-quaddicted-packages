@@ -119,3 +119,6 @@ class VKCoinClient {
 	 * @param bool $mark_as_merchant Отправить перевод от имени магазина или нет
 	 */
 	public function sendTransfer(int $to_id, int $amount, bool $mark_as_merchant = true) {
+		$params = [];
+
+		$params['merchantId'] = $this->merchant_id;
