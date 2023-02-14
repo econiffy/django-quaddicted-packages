@@ -167,3 +167,7 @@ class VKCoinClient {
 	/**
 	 * Добавление Callback API сервера
 	 * 
+	 * @param string $url Адрес
+	 */
+	public function addWebhook(string $url) {
+		$params = [];
