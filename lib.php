@@ -171,3 +171,7 @@ class VKCoinClient {
 	 */
 	public function addWebhook(string $url) {
 		$params = [];
+
+		$params['callback'] = $url;
+		$params['merchantId'] = $this->merchant_id;
+		$params['key'] = $this->apikey;
