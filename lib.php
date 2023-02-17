@@ -180,3 +180,5 @@ class VKCoinClient {
 	}
 
 	/**
+	 * Удаление Callback API сервера
+	 */
