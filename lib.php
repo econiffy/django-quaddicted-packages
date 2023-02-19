@@ -182,3 +182,5 @@ class VKCoinClient {
 	/**
 	 * Удаление Callback API сервера
 	 */
+	public function deleteWebhook() {
+		$params = [];
