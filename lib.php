@@ -194,3 +194,6 @@ class VKCoinClient {
 
 	/**
 	 * Получение логов неудачных запросов
+	 */
+	public function getWebhookLogs() {
+		$params = [];
