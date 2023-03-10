@@ -184,3 +184,7 @@ class VKCoinClient {
 	 */
 	public function deleteWebhook() {
 		$params = [];
+
+		$params['callback'] = null;
+		$params['merchantId'] = $this->merchant_id;
+		$params['key'] = $this->apikey;
