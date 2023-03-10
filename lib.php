@@ -188,3 +188,6 @@ class VKCoinClient {
 		$params['callback'] = null;
 		$params['merchantId'] = $this->merchant_id;
 		$params['key'] = $this->apikey;
+
+		return $this->request('set', json_encode($params, JSON_UNESCAPED_UNICODE));
+	}
