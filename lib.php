@@ -206,3 +206,7 @@ class VKCoinClient {
 	}
 
 	/**
+	 * Проверка подлинности ключа
+	 * 
+	 * @param array|object $params Данные запроса, декодированные через json_decode(file_get_contents('php://input'), true) или json_decode(file_get_contents('php://input'))
+	 */
