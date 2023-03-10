@@ -191,3 +191,6 @@ class VKCoinClient {
 
 		return $this->request('set', json_encode($params, JSON_UNESCAPED_UNICODE));
 	}
+
+	/**
+	 * Получение логов неудачных запросов
