@@ -210,3 +210,7 @@ class VKCoinClient {
 	 * 
 	 * @param array|object $params Данные запроса, декодированные через json_decode(file_get_contents('php://input'), true) или json_decode(file_get_contents('php://input'))
 	 */
+	public function isKeyValid($params) {
+		if(is_array($params) || is_object($params)) {
+			$p = [];
+			if(is_object($params)) { // если объект, то превращаем его в ассоциативный массив
