@@ -216,3 +216,6 @@ class VKCoinClient {
 			if(is_object($params)) { // если объект, то превращаем его в ассоциативный массив
 				foreach($params as $key => $value) {
 					$p[$key] = $value;
+				}
+			} else {
+				$p = $params;
