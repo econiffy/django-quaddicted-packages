@@ -219,3 +219,6 @@ class VKCoinClient {
 				}
 			} else {
 				$p = $params;
+			}
+
+			if(isset($p['id'], $p['from_id'], $p['amount'], $p['payload'], $p['key'])) {
