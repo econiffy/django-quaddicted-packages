@@ -228,3 +228,5 @@ class VKCoinClient {
 		}
 
 		return false;
+	}
+}
